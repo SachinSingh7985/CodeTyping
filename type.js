@@ -65,7 +65,6 @@ var endTime = 0;
 var boolean = false;
 out.innerText = lan[current_lan][counter]+"\r\n";
 out.innerText += lan[current_lan][counter+1]+"\r\n";
-out.innerText += lan[current_lan][counter+2];
 counter = 1;
 lang[0].style.backgroundColor = "orange";
 
@@ -88,7 +87,6 @@ function reset(){
 function display(){
      out.innerText = lan[current_lan][counter]+"\r\n";
      out.innerText += lan[current_lan][counter+1]+"\r\n";
-     out.innerText += lan[current_lan][counter+2];
      counter++;
 }
 
