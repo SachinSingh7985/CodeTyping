@@ -1298,6 +1298,7 @@ function startTimer(duration, display) {
             display.textContent = "01:00";
             helper();
             inp.innerText = "";
+            alert("Time_out");
             setTimeout(() => { clearInterval(timer_Id); console.log('stop'); }, 0);               
         }
     }, 1000); 
