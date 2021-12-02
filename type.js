@@ -1259,7 +1259,7 @@ function do_math(cur,str){
     time = (endTime - startTime)/1000;
     error = (total - correct);
     accuracy = (correct/total)*100;
-    speed = (correct*12)/(time);
+    speed = (correct*10)/(time);
     change_info();
 }
 
